@@ -1,0 +1,33 @@
+:root{
+    --background: rgb(98, 111, 124);
+    --navbar: rgb(21, 187, 124);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+a{
+    color: inherit;
+}
+/* ------------------------header---------------------------- */
+header { 
+display: flex;   
+justify-content: space-between;
+background-color: var(--navbar);
+height: 80px;
+align-items: center;
+
+}
+.navbarimg{
+   height: 80px; 
+   margin: 20px;
+}
+.navbar{
+    display: flex;
+    margin: 20px;
+    gap: 30px;
+}
+
