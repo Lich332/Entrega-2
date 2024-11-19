@@ -33,3 +33,25 @@ align-items: center;
 body {
     background-color: var(--background);
 }
+main {
+    display: flex;
+    
+}
+.hero{
+    padding: 2rem;
+    padding-left: 4rem;
+}
+.imagenhero{
+padding-top: 2rem;
+}
+main h1{
+    width: 50%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+main p {
+    
+   
+}
+
